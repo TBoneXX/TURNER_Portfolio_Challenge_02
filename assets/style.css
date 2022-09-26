@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    background-color: #041E42;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;  
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:#7BAFD4;
+}
+
+.header div ul:visited {
+    text-decoration: none;
+    color:#7BAFD4;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color:#7BAFD4;
+}
+
+.header div ul li :visited {
+    color:white;
+}
+
+@media (max-width:920px) {
+
+    .header div ul li { display:none; }
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #8d9092 ;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+.sidebar a:hover {
+    background-color: #7BAFD4;
+    color: white;
+  }
+  
+ 
+ div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: auto;
+  }
+  
+  /* On screens that are less than 920px wide, make the sidebar horizontal */
+  @media screen and (max-width: 920px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+.about-me {
+    
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+#turners-pic {
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    margin:20px;
+    display:inline-block;
+    margin-left:20px;
+    margin-right: 20px;
+    width:50%;
+
+}
+
+
+#about-me h2 {
+    
+    display:flex;
+    justify-content: center;
+    padding-bottom:20px;
+    margin-top:20px;
+       
+
+}
+
+#about-me-paragraph {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;   
+   
+}
+
+
+#work {
+   
+   margin-top: 50px;
+}
+#work-focus {
+    height:400px;
+    width:100%;
+    background-image: url(./program.jfif);
+    padding:20px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    border-radius: 20px;
+}
+#focus-title {
+    font-size: 200%;
+    display:flex;
+    justify-content: center;
+    color:#041E42;
+    background-color: white;
+    align-items: top;  
+    padding:20px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    border-radius: 20px;
+
+}
+#focus-title:hover {
+    background-color: #7BAFD4;
+    color:white;
+}
+
+
+.secondary-work {
+    
+   display:flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+  
+   
+
+}
+
+@media screen and (max-width:920px){
+    .secondary-work{
+        display:flex;
+   flex-direction: column;
+   width:100%;
+
+   
+}
+}
+
+.project-title {
+font-size: 200%;
+display:flex;
+justify-content: center;
+color:#041E42;
+background-color: white;
+align-items: top;  
+padding:20px;
+margin:20px;
+border-width:5px;
+border-style:solid;
+border-color: #041E42;
+border-radius: 20px;
+
+}
+.project-title:hover {
+    background-color: #7BAFD4;
+    color:white;
+}
+
+
+#work-2 {
+    width:47%;
+    background-image: url(./project2.jpg) ;
+    padding:20px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    border-radius: 20px;
+   
+}
+
+
+#work-3 {
+    width:47%;
+    background-image: url(./CB-Map.png) ;
+    padding:20px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    border-radius: 20px;
+
+}
+.comingsoon {
+    font-size: 125%;
+    display:flex;
+    flex: 1 0 25%;
+    justify-content: center;
+    background-color: #041E42;
+    align-items: top;
+    color:white;
+    padding:10px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #7BAFD4;
+    border-radius: 20px;
+   
+}
+#work-4 {
+    width:47%;
+    background-image: url(./food.jpg) ;
+    padding:20px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    border-radius: 20px;
+}
+#work-5 {
+    width:47%;    
+    background-image: url(./hammer.jpg) ;
+    padding:20px;
+    margin:20px;
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    border-radius: 20px;
+}
+
+
+.contact {
+    border-width:5px;
+    border-style:solid;
+    border-color: #041E42;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.contact h2 {
+    display:flex;
+    justify-content: center;
+    padding-bottom:20px;
+    margin-top:20px;
+    font: size 1.5em; 
+    
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    
+}
+@media screen and (max-width:1050px){
+    .contact ul {
+        display:flex;
+   flex-direction: column;
+margin-left:50px;
+    }
+
+}
