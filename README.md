@@ -13,3 +13,6 @@ One of the main points at this juncture (September 20222) during the creation of
 
 One thing to note at this point is that the coding projects are all marked as coming soon, and will be replaced with updated and completed projects as they come online. The existing boxes are placeholders for both bootcamp projects and several personal projects under design.
 
+https://tbonexx.github.io/TURNER_Portfolio_Challenge_02/
+
+<img src="/Screenshot.png" alt="Screenshot of Website" title="Website Screenshot">
