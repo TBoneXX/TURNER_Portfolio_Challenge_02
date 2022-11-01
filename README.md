@@ -15,4 +15,4 @@ One thing to note at this point is that the coding projects are all marked as co
 
 https://tbonexx.github.io/TURNER_Portfolio_Challenge_02/
 
-<img src="/Screenshot.png" alt="Screenshot of Website" title="Website Screenshot">
+<img src="/assets/Screenshot.png" alt="Screenshot of Website" title="Website Screenshot">
